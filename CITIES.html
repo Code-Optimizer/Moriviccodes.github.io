@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html>
+<body>
+<h1> CLASS ATTRIBUTE USING JAVASCRIPT </h1>
+<p>  Here I will be practicing how to use the Class attribute in JAVASCRIPT. I will try to create a script to help hide and unhide a given Class Attribute. <br>
+I will be using Click the button, to hide all elements with the class name "city", with JavaScript: </p></br>
+<button onclick="myFunction ()">Hide Class Function</button>
+<h2 Class="City" >Abuja, Nigeria </h2>
+<p> Abuja is the Federal Capital Territory of Nigeria. The center of Nigeria's Democratic powers</p>
+<img src="WEB PICTURES/ABJ.jpg"; alt="ABJ Image"; width= "300"; height="250">
+<h2 class="City" > Lagos, Nigeria </h2>
+<p> This is one of the busiest part of Nigeria. Lagos is the largest city in Nigeria and one of the largest in sub-Sahara Africa. <br>It was the Federal CApital Territory of Nigeria until 1991 when it was moved to Abuja. It is the financial center and the economic hub of Nigeria. </p>
+<img src="WEB PICTURES/LAG.jpg"; alt="LAG Image"; width= "300"; height="250">
+<h2 Class="City" > Kano, Nigeria </h2>
+<p> This is the second largest city in Nigeria after Lagos. With over 449km2. <br>It is located on the Savanna, South of Sahel, Kano is major route of the trans-Saharan trade, having been a trade and human settlement for millennia. </p>
+<img src="WEB PICTURES/KANO.jpg"; alt="KANO Image"; width= "300"; height="250">
+<h2 Class="City" > Rivers, Nigeria</h2>
+<p> Port Harcourt is a city rich in tourism and culture. it is the largest city in Rivers State, after Lagos, Kano, Ibadan, Kaduna. The town is located on the once fishing settlement and ports. <br>It is famed for having immense crude oil deposits, farming and other major businesses and is generally known for the slogan:Treasury base of the nation</p>
+<img src="WEB PICTURES/PH.jpg"; alt="PH Image"; width= "300"; height="250">
+<script>
+function myFunction() {
+  var x = document.getElementsByClassName("city");
+  for (var i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+}
+</script>
+</body>
+</html>

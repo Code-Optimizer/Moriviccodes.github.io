@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html>
+<body>
+<h1> CLASS ATTRIBUTE USING JAVASCRIPT </h1>
+<p>  Here I will be practicing how to use the Class attribute in JAVASCRIPT. I will try to create a script to help hide and unhide a given Class Attribute.
+I will be using Click the button, to hide all elements with the class name "city", with JavaScript: </p>
+<button onclick="myFunction ()">Class Function</button>
+<h2 Class="city" >Abuja, Nigeria </h2>
+<p> Abuja is the Federal Capital Territory of Nigeria. The center of Nigeria's Democratic powers</p>
+<img src="WEB PICTURES/ABJ.jpg" alt="ABJ IMG" height="300" width="300">
+<h2 class="city" > Lagos, Nigeria </h2>
+<p> This is one of the busiest part of Nigeria. Lagos is the largest city in Nigeria and one of the largest in sub-Sahara Africa. It was the Federal CApital Territory of Nigeria until 1991 when it was moved to Abuja. It is the financial center and the economic hub of Nigeria. </p>
+<img src="WEB PICTURES/LAG.jpg" alt="LAG IMG" height="300" width="300">
+<h2 Class="city" > Kano, Nigeria </h2>
+<p> This is the second largest city in Nigeria after Lagos. With over 449km2. It is located on the Savanna, South of Sahel, Kano is major route of the trans-Saharan trade, having been a trade and human settlement for millennia. </p>
+<img src="WEB PICTURES/KANO.jpg" alt="KANO IMG" height="300" width="300">
+<h2 Class="city" > Rivers, Nigeria</h2>
+<p> Port Harcourt is a city rich in tourism and culture. it is the largest city in Rivers State, after Lagos, Kano, Ibadan, Kaduna. The town is located on the once fishing settlement and ports. It is famed for having immense crude oil deposits, farming and other major businesses and is generally known for the slogan:Treasury base of the nation</p>
+<img src="WEB PICTURES/PH.jpg" alt="PH IMG" height="300" width="300">
+<script>
+function myFunction() {
+  var x = document.getElementsByClassName("city");
+  for (var i = 0; i < x.length; i++) {
+    x[i].style.display= "none";
+  }
+}
+</script>
+</body>
+</html>
