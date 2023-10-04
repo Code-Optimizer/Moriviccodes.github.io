@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style media="screen">
+      ul {
+        list-style-type: none;
+        border: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: Gold;
+      }
+      li {
+        float: right;
+            }
+            li a {
+              display: block;
+              text-align: center;
+              color: black;
+              text-decoration: none;
+                            padding: 16px;
+            }
+            li a:hover {
+              background-color:red;
+            }
+    </style>
+  </head>
+  <ul>
+    <li> <a href="#Signup/Login"> SIGNUP/LOGIN</a>
+      <li> <a href="#register"> REGISTER</a> </li>
+      <li> <a href="#RateourService"> RATE OUR SERVICES</a> </li>
+  </ul>
+    <body>
+<h2 Id="myHeader">I WILL MAKE YOU SMILE!</h2>
+<button onclick="displayResult()">CLICK ME AND SMILE</button>
+<script>
+  function displayResult() {
+  document.getElementById("myHeader").innerHTML = "HURRAY I MADE IT!";
+}
+</script>
+
+  </body>
+
+</html>
